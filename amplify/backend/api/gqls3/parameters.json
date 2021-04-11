@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "gqls3",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authusermanagement75c6a62e",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
