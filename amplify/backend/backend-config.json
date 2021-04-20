@@ -1,5 +1,12 @@
 {
-  "auth": {},
+  "auth": {
+    "usermanagement75c6a62e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
   "storage": {
     "gqsl3": {
       "service": "S3",
@@ -7,7 +14,7 @@
     }
   },
   "api": {
-    "gqls3": {
+    "usersapp": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
